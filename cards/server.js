@@ -174,5 +174,5 @@ app.post('/api/searchcards', async (req, res, next) =>
   res.status(200).json(ret);
 });
 
-app.listen(6000); // start Node + Express server on port 5000
-console.log("Server started on Port 6000")
+app.listen(5000); // start Node + Express server on port 5000
+console.log("Server started on Port 5000")
